@@ -1,8 +1,6 @@
 require("config.lazy")
+require("toggletermconfig")
 require("ibl").setup()
-require("lazy").setup({
-  {"nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate"}
-})
         -- Set some basic options
         vim.o.number = true
         vim.o.relativenumber = true
