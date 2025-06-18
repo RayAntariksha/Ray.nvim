@@ -1,7 +1,8 @@
 <h1><bold>RAY.NVIM</bold></h1>
 <h2>SCREENSHOTS</h2>
 
-![image](https://github.com/user-attachments/assets/016f1cfe-c582-499f-a919-007afe735900)
+![image](https://github.com/user-attachments/assets/56df7ff4-23b9-4c71-8746-fe1a28e2bbd9)
+
 
 
 <h2>INSTALLATION:</h2>
