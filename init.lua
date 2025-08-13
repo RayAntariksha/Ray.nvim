@@ -1,5 +1,4 @@
 require("config.lazy")
-require("toggletermconfig")
 require("ibl").setup()
         -- Set some basic options
         vim.o.number = true
