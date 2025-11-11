@@ -15,4 +15,3 @@ vim.o.termguicolors = true
 vim.cmd [[colorscheme tokyonight]]
 -- Enable syntax highlighting and filetype detection
 vim.filetype.plugin = true
-
