@@ -1,14 +1,7 @@
 require("config.lazy")
 require("ibl").setup()
 require("keybinds")
-require("tokyonight").setup({
-  style = "storm", -- Choose your preferred style: "storm", "moon", "night", or "day"
-  transparent = true, -- Enable transparent background
-  styles = {
-    sidebars = "transparent", -- Set sidebars to also be transparent
-    floats = "transparent", -- Set floating windows to be transparent
-  },
-})
+
 -- Set some basic options
 vim.o.number = true
 vim.o.relativenumber = true
