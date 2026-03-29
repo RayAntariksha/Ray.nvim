@@ -25,17 +25,8 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
 	  { import = "plugins" },
-	  {
-    "lukas-reineke/indent-blankline.nvim",
-    main = "ibl",
-    ---@module "ibl"
-    ---@type ibl.config
-    opts = {},
-}
+	  { import = "ui" },
+	  { import = "lsp.lsp_plugins" },
   },
-  -- Configure any other settings here. See the documentation for more details.
-  -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "onedark" } },
-  -- automatically check for plugin updates
   checker = { enabled = true },
 })
