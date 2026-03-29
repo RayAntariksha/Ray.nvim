@@ -7,15 +7,6 @@ return{
         "hrsh7th/cmp-buffer",
         "hrsh7th/cmp-path",
     },
-    -- Not all LSP servers add brackets when completing a function.
-    -- To better deal with this, LazyVim adds a custom option to cmp,
-    -- that you can configure. For example:
-    --
-    -- ```lua
-    -- opts = {
-        --   auto_brackets = { "python" }
-        -- }
-        -- ```
         opts = function()
             -- Register nvim-cmp lsp capabilities
             vim.lsp.config("*", { capabilities = require("cmp_nvim_lsp").default_capabilities() })

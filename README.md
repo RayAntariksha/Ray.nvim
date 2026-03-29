@@ -18,11 +18,10 @@ git clone https://github.com/RayAntariksha/Ray.nvim.git ~/.config/nvim && nvim
 -indent-blankline
 -lazy.nvim
 -lualine
--mason-lspconfig
 -mason.nvim
 -nvim-lspconfig
--nvim-treesitter
 -oil.nvim
 -telescope
 -nvim-autopairs 
-
+-gitsigns
+-nvim-cmp

@@ -1,5 +1,4 @@
 require("config.lazy")
 require("core.keybinds")
 require("core.options")
-require("lsp.language-server-config")
 require("lsp.lsp_setup")
