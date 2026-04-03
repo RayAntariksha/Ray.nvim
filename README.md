@@ -5,9 +5,8 @@ customizbility of neovim intact.
 This started as my own personal config, is now made public for the people who
 want to get started with neovim.
 ## Screenshots:
-<img alt="image" src="https://github.com/user-attachments/assets/d666d5e3-3118-44ee-8b91-51c0fd17684b" />
-
-<img alt="image" src="https://github.com/user-attachments/assets/9aeffaa3-9f39-405b-b915-679e9e1a9289" />
+<img width="1921" height="1032" alt="image" src="https://github.com/user-attachments/assets/a014d616-d873-4e77-8ad6-4458e7d5b75e" />
+<img width="1914" height="1031" alt="image" src="https://github.com/user-attachments/assets/159c014d-d0a8-4b32-93d8-f20660f9aa80" />
 
 ## Installation:
 
