@@ -1,34 +1,15 @@
 return{
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
-    event = "VeryLazy",
     config = function ()
         require('lualine').setup {
             options = {
-                component_separators = { left = '', right = ''},
+                component_separators = { left = '', right = ''},
                 section_separators = { left = '', right = ''},
                 ignore_focus = {},
                 always_divide_middle = true,
                 always_show_tabline = true,
                 globalstatus = false,
-                refresh = {
-                    statusline = 100,
-                    tabline = 1000,
-                    winbar = 1000,
-                    refresh_time = 10, -- ~60fps
-                    events = {
-                        'WinEnter',
-                        'BufEnter',
-                        'BufWritePost',
-                        'SessionLoadPost',
-                        'FileChangedShellPost',
-                        'VimResized',
-                        'Filetype',
-                        'CursorMoved',
-                        'CursorMovedI',
-                        'ModeChanged',
-                    },
-                }
             },
             sections = {
                 lualine_a = {'mode'},
@@ -46,10 +27,6 @@ return{
                 lualine_y = {},
                 lualine_z = {}
             },
-            tabline = {},
-            winbar = {},
-            inactive_winbar = {},
-            extensions = {}
         }
     end
 }

@@ -28,5 +28,6 @@ require("lazy").setup({
 	  { import = "ui" },
 	  { import = "lsp.lsp_plugins" },
   },
-  checker = { enabled = true },
+  checker = { enabled = false },
+  install = {colorscheme = {"kanagawa"}},
 })

@@ -13,4 +13,4 @@ vim.o.termguicolors = true
 vim.opt.clipboard = "unnamedplus" --lets use the system clipboard for a seamless experience
 -- Enable syntax highlighting and filetype detection
 vim.filetype.plugin = true
-vim.cmd([[colorscheme kanagawa]])
+vim.cmd([[set colorcolumn=80]])
