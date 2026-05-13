@@ -1,6 +1,10 @@
 -- Set leader key
 vim.g.mapleader = " "
 
+vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "switch window left" })
+vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "switch window right" })
+vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "switch window down" })
+vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 -- The following is the default config for harpoon.
 local harpoon = require("harpoon")
 
@@ -23,11 +27,10 @@ vim.keymap.set("n", "<C-S-N>", function() harpoon:list():next() end)
 -- Fzf lua config
 vim.keymap.set("n", "<leader>ff", ":FzfLua files<CR>", { desc = 'Find files uzing Fzflua' })
 
--- Origami (code folding) config
-vim.keymap.set("n", "m", function() require("origami").h() end)
-vim.keymap.set("n", "n", function() require("origami").l() end)
-
-
 vim.keymap.set("n", "<leader>e", ":Ex<CR>", { desc = 'Find files uzing Fzflua' })
 vim.keymap.set("n", "<leader>j", ":lua vim.diagnostic.open_float()<CR>", { desc = 'Find files uzing Fzflua' })
-vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+
+--Nvim Tree
+-- nvimtree
+vim.keymap.set("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
+vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
